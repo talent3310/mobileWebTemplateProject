@@ -51,7 +51,7 @@
     /* ----- v CAN BE DELETED v ----- */
     
     body {
-        background: #EEEEEE;
+       
         position: relative;
     }
     
@@ -124,9 +124,9 @@
         background: #EEEEEE;
     }
     
-    #newstopbar {
+    #chattopbar {
         padding: 10px 14px;
-        height: 45px;
+        height: 70px;
         color: black;
         font-size: 18px;
         background: white;
@@ -137,82 +137,81 @@
         color: grey;
     }
     </style>
-    <div class="news">
-        <div id="newstopbar" class="bmd-ripple">
-            <i class="fa fa-home " aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Company
+    <div class="chat">
+        <div id="chattopbar" class="bmd-ripple">
+            <img src="img/group.png" width="50px" /> &nbsp;&nbsp;&nbsp;Team2 Group chat
         </div>
         <div>
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default" style="margin-top:20px">
+                <div class="panel panel-default" >
                     <div class="panel-heading " role="tab" id="headingTwo">
-                        <h4 class="panel-title bmd-ripple"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="more-less glyphicon glyphicon-chevron-right"></i>
-                        Project team</a></h4>
+                        <h4 class="panel-title bmd-ripple"><a style="padding: 11px;" class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Team employees</a></h4>
                     </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                        <div class="panel-body bmd-ripple">
-                            BBBBBBBBBB
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title bmd-ripple"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="more-less glyphicon glyphicon-chevron-right"></i>
-                        Project team</a></h4>
+                        <h4 class="panel-title bmd-ripple" style="padding: 10px;">
+                            <img src="img/person.jpg" width="50px" style="float: left; margin-right: 10px;border-radius: 6px" /><span> <b>Team employees</b> <i class="fa fa-circle" aria-hidden="true" style="color: #55C44C;
+    font-size: 11px;"></i><br>
+                            <span style="font-size:12px; color: grey; line-height:2">Last message</span></span>
+                        </h4> 
                     </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                        <div class="panel-body bmd-ripple">
-                            CCCCCCCCCC
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingFour">
-                        <h4 class="panel-title bmd-ripple"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="more-less glyphicon glyphicon-chevron-right"></i>
-                        Project team</a></h4>
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title bmd-ripple" style="padding: 10px;">
+                            <img src="img/person.jpg" width="50px" style="float: left; margin-right: 10px;border-radius: 6px" /><span> <b>Team employees</b> <i class="fa fa-circle-o" aria-hidden="true" style="color: grey;
+    font-size: 11px;"></i><br>
+                            <span style="font-size:12px; color: grey; line-height:2">Last message</span></span>
+                        </h4> 
                     </div>
-                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                        <div class="panel-body bmd-ripple">
-                            DDDDDDDDDDD
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default" style="margin:20px 0px">
-                    <div class="panel-heading" role="tab" id="headingSix">
-                        <h4 class="panel-title bmd-ripple"><a class="collapsed" style="padding:15px 10px" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><i class="more-less glyphicon glyphicon-plus-sign"></i>
-                        Schedule</a></h4>
-                    </div>
-                    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                        <div class="panel-body bmd-ripple">
-                            F
-                        </div>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingSeven" style="padding-left: 10px;">
-                        <h4 class="panel-title bmd-ripple"><div class="checkbox bmd-checkbox bmd-checkbox-primary">
-            <label>
-              <input type="checkbox" class="bmd-ripple">
-              <span class="check"></span>
-              Task name <span style="color: grey; font-size:12px">DD/MM/YEAR</span><br>
-              <span style="color: grey; font-size:12px">Username</span>
-
-            </label>
-          </div></h4>
-                    </div>
+                    
                 </div>
                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingSeven" style="padding-left: 10px;">
-                        <h4 class="panel-title bmd-ripple"><div class="checkbox bmd-checkbox bmd-checkbox-primary">
-            <label>
-              <input type="checkbox" class="bmd-ripple">
-              <span class="check"></span>
-              Task name <span style="color: grey; font-size:12px">DD/MM/YEAR</span><br>
-              <span style="color: grey; font-size:12px">Username</span>
-
-            </label>
-          </div></h4>
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title bmd-ripple" style="padding: 10px;">
+                            <img src="img/person.jpg" width="50px" style="float: left; margin-right: 10px;border-radius: 6px" /><span> <b>Team employees</b> <i class="fa fa-circle" aria-hidden="true" style="color: #55C44C;
+    font-size: 11px;"></i><br>
+                            <span style="font-size:12px; color: grey; line-height:2">Last message</span></span>
+                        </h4> 
                     </div>
+                    
                 </div>
+                 <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title bmd-ripple" style="padding: 10px;">
+                            <img src="img/person.jpg" width="50px" style="float: left; margin-right: 10px;border-radius: 6px" /><span> <b>Team employees</b> <i class="fa fa-circle" aria-hidden="true" style="color: #55C44C;
+    font-size: 11px;"></i><br>
+                            <span style="font-size:12px; color: grey; line-height:2">Last message</span></span>
+                        </h4> 
+                    </div>
+                    
+                </div>
+                 <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title bmd-ripple" style="padding: 10px;">
+                            <img src="img/person.jpg" width="50px" style="float: left; margin-right: 10px;border-radius: 6px" /><span> <b>Team employees</b> <i class="fa fa-circle" aria-hidden="true" style="color: #55C44C;
+    font-size: 11px;"></i><br>
+                            <span style="font-size:12px; color: grey; line-height:2">Last message</span></span>
+                        </h4> 
+                    </div>
+                    
+                </div>
+                 <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title bmd-ripple" style="padding: 10px;">
+                            <img src="img/person.jpg" width="50px" style="float: left; margin-right: 10px; border-radius: 6px" /><span> <b>Team employees</b> <i class="fa fa-circle-o" aria-hidden="true" style="color: grey;
+    font-size: 11px;"></i><br>
+                            <span style="font-size:12px; color: grey; line-height:2">Last message</span></span>
+                        </h4> 
+                    </div>
+                    
+                </div>
+                
+               
             </div>
         </div>
     </div>
